@@ -1,0 +1,42 @@
+.clear {
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 26px;
+}
+
+a.button {
+    background: transparent url('img/button-a.png') no-repeat scroll top right;
+    color: #333;
+    display: block;
+    float: left;
+    font: normal 16px arial, sans-serif;
+    height: 48px;
+    margin-right: 12px;
+    padding-right: 36px;
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url('img/button-span.png') no-repeat top left;
+    display: block;
+    line-height: 28px;
+    padding: 10px 0 10px 36px;
+}
+
+a.button:active {
+    background-position: bottom right;
+    color: #666;
+    outline: none;
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 11px 0 9px 36px;
+}
+
+body {
+	color: #444;
+	font: normal 28px georgia, serif;
+	margin: 80px;
+}
+
